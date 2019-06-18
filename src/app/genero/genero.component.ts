@@ -23,6 +23,8 @@ export class GeneroComponent implements OnInit {
       genero => this.genero = genero
     );
 
+    this.generos$.cadastrar(this.genero)
+    
   }
 
 }
